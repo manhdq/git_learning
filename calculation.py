@@ -7,6 +7,7 @@ def cal_circle_area(r):
     return math.pi * pow(r, 2)
 
 if __name__ == '__main__':
+    print("===== Calculator =====")
     f = int(input("choose function: \n\
         0. cal_rectangle_perimeter \n\
         1. cal_circle_area \n\
